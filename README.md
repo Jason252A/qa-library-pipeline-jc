@@ -34,8 +34,8 @@ git config --global user.name "Your Name"
 ### Local Development
 ```bash
 # Clone this repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/Jason252A/qa-library-pipeline-jc.git
+cd qa-library-pipeline-jc
 
 # Create virtual environment
 python -m venv venv
