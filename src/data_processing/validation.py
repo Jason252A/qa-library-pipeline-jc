@@ -22,7 +22,6 @@ def validate_isbn(isbn):
     if len(isbn) == 13:
         return True
     else:
-        print("Fail: " + isbn)
         return False
 
 
