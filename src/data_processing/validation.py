@@ -7,18 +7,18 @@ Data validation functions.
 def validate_isbn(isbn):
     """Validate ISBN-13 format."""
     isbn = str(isbn)
-    isbn = isbn.replace("-","")
-#    isbntxt = isbntxt.replace("-","")
-#    try:
-#        int(isbn)
-#        print("pass: " + isbntxt)
-#        if len(a) == 13
-#        return True
-#        else
-#            return False
-#    except:
-#        print("fail: " + str(isbn))      
-#        return False
+    isbn = isbn.replace("-", "")
+    #    isbntxt = isbntxt.replace("-","")
+    #    try:
+    #        int(isbn)
+    #        print("pass: " + isbntxt)
+    #        if len(a) == 13
+    #        return True
+    #        else
+    #            return False
+    #    except:
+    #        print("fail: " + str(isbn))
+    #        return False
     if len(isbn) == 13:
         return True
     else:
