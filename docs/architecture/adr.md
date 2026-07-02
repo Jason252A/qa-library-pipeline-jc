@@ -1,6 +1,11 @@
 # Architecture Decision Record
 
 # Medallion Architecture - Group 2
+!!! Info "Test info"
+!!! Notes "note info"
+## heading 1
+- bullet 1
+- bullet 2
 
 ## Task
 

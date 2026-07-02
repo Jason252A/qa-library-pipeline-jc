@@ -1,24 +1,24 @@
 # Recommended Tasks for Library Pipeline Project
 
 ## Data Ingestion
-- [ ] Build CSV ingestion function (`load_csv()`)
-- [ ] Build JSON ingestion function (`load_json()`)
-- [ ] Build Excel ingestion function (`load_excel()`)
-- [ ] Build text file reader (`load_text()`)
-- [ ] Test ingestion locally in Jupyter
+- [x] Build CSV ingestion function (`load_csv()`)
+- [x] Build JSON ingestion function (`load_json()`)
+- [x] Build Excel ingestion function (`load_excel()`)
+- [x] Build text file reader (`load_text()`)
+- [x] Test ingestion locally in Jupyter
 
 ## Data Cleaning
-- [ ] Implement duplicate removal function
-- [ ] Implement missing value handler
-- [ ] Implement date standardization
-- [ ] Implement ISBN validation
-- [ ] Test cleaning functions
+- [x] Implement duplicate removal function
+- [x] Implement missing value handler
+- [x] Implement date standardization
+- [x] Implement ISBN validation
+- [x] Test cleaning functions
 
 ## Testing
-- [ ] Write tests for ingestion module (70%+ coverage)
-- [ ] Write tests for cleaning module (70%+ coverage)
-- [ ] Write tests for validation module (70%+ coverage)
-- [ ] Ensure all tests pass
+- [x] Write tests for ingestion module (70%+ coverage)
+- [x] Write tests for cleaning module (70%+ coverage)
+- [x] Write tests for validation module (70%+ coverage)
+- [x] Ensure all tests pass
 
 ## CI/CD
 - [ ] Review GitHub Actions workflow
